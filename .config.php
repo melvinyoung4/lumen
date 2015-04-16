@@ -19,11 +19,11 @@ return Array(
     'MEMCACHE_PORT'=>'11211',
 
 
-    'AES_KEY256'=>'You must set this to a 32 length string for secure encryption',
+    'AES_KEY256'=>'b5d4338282a2c3618e4ded470188de3f',
 
 
-    'SHA512_SALT_LEAD'=>'somerandomstringhash',
-    'SHA512_SALT_TAIL'=>'morerandom'
+    'SHA512_SALT_LEAD'=>'9eea5730e59c',
+    'SHA512_SALT_TAIL'=>'39952968cc68'
 );
 
 ?>

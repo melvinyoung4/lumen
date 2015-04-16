@@ -1,0 +1,637 @@
+@font-face {
+    font-family: 'andadabold';
+    src: url('../fonts/andada-bold-webfont.eot');
+    src: url('../fonts/andada-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andada-bold-webfont.woff') format('woff'),
+         url('../fonts/andada-bold-webfont.ttf') format('truetype'),
+         url('../fonts/andada-bold-webfont.svg#andadabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'andadabold_italic';
+    src: url('../fonts/andada-bolditalic-webfont.eot');
+    src: url('../fonts/andada-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andada-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/andada-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/andada-bolditalic-webfont.svg#andadabold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'andadaitalic';
+    src: url('../fonts/andada-italic-webfont.eot');
+    src: url('../fonts/andada-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andada-italic-webfont.woff') format('woff'),
+         url('../fonts/andada-italic-webfont.ttf') format('truetype'),
+         url('../fonts/andada-italic-webfont.svg#andadaitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'andadaregular';
+    src: url('../fonts/andada-regular-webfont.eot');
+    src: url('../fonts/andada-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andada-regular-webfont.woff') format('woff'),
+         url('../fonts/andada-regular-webfont.ttf') format('truetype'),
+         url('../fonts/andada-regular-webfont.svg#andadaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'andada_scbold';
+    src: url('../fonts/andadasc-bold-webfont.eot');
+    src: url('../fonts/andadasc-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andadasc-bold-webfont.woff') format('woff'),
+         url('../fonts/andadasc-bold-webfont.ttf') format('truetype'),
+         url('../fonts/andadasc-bold-webfont.svg#andada_scbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'andada_scbold_italic';
+    src: url('../fonts/andadasc-bolditalic-webfont.eot');
+    src: url('../fonts/andadasc-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andadasc-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/andadasc-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/andadasc-bolditalic-webfont.svg#andada_scbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'andada_scitalic';
+    src: url('../fonts/andadasc-italic-webfont.eot');
+    src: url('../fonts/andadasc-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andadasc-italic-webfont.woff') format('woff'),
+         url('../fonts/andadasc-italic-webfont.ttf') format('truetype'),
+         url('../fonts/andadasc-italic-webfont.svg#andada_scitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'andada_scregular';
+    src: url('../fonts/andadasc-regular-webfont.eot');
+    src: url('../fonts/andadasc-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andadasc-regular-webfont.woff') format('woff'),
+         url('../fonts/andadasc-regular-webfont.ttf') format('truetype'),
+         url('../fonts/andadasc-regular-webfont.svg#andada_scregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#headerimage {
+	background: url("../images/lumen-port-index.png") no-repeat center;
+	width: 100%;
+	min-height: 200px;
+	max-width: 1028px;
+	margin: 0 auto;
+}
+
+#slider {
+	width: 100%;
+	max-width: 1028px;
+	margin: 0 auto;
+	
+	
+}	
+body {
+	margin: 0 auto;
+	font-family: 'andadaregular', Georgia, serif;
+	font-size: 1em;
+	line-height: 2;
+	background-color: #fcfcec;
+	width: 100%;
+	max-width: 1028px;
+	list-style-type: none;
+}
+
+#body-wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+ul.right li {
+	margin: 0 auto;
+	
+}
+
+.index {
+	width: 100%;
+}
+
+#compdescription {
+	padding: 0;
+}
+
+#compdescription p {
+	border-bottom: 1pt solid black;
+	padding: 0 0 5% 0;
+}
+
+h1 {
+	font-family: 'andada_scregular', Georgia, serif;
+	font-size: 2em;
+	color: #D73624;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: 'andadaitalic', Georgia, serif;
+	font-size: 1.5em;
+	font-weight: normal;
+			
+}
+
+h3 {
+	font-family: 'andadaitalic', Georgia, serif;
+	font-size: 1.25em;
+	color: #D73624;
+	font-weight: normal;
+			
+}
+
+#emailsubmit {
+	float: right;
+	padding: 0 2% 0 2%;
+}
+
+#emailsubmit fieldset {
+	border: none;
+	padding: 0;
+	margin: 0;
+	
+}
+
+#emailsubmit legend {
+	font-family: 'andadaitalic', Georgia, serif;
+	font-size: 1.5em;
+	font-weight: normal;	
+	color: #D73624;
+	background: none;
+}
+
+#emailsubit label {
+	/*width: 100%;*/
+	padding: 0 0 0 5%;
+
+}
+
+#emailsubmit input[type="email"] {
+	display: block;
+	font-size: 1em;
+	padding: .25em;
+	color: #FFF;
+	border: 5px solid white;
+	background-color: #D73624;
+	width: 65%;
+	float: left;
+}
+
+#emailsubmit input[type="submit"] {
+	font-size: 1em;
+	padding: .25em;
+	color: white;
+	border: 5px solid white;
+	background-color: #D73624;
+	width: 30%;
+	float: right;
+	/*margin: 0 3% 0 0;*/
+
+}
+
+/*Footer elements should be centered for medium/iPad & iPhone browser widths*/
+
+/*This is the beginning of the products page styling*/
+
+#cameras {
+	width: 100%;
+}
+
+#cameras img {
+	float: right;
+	width: 40%;
+	margin: 0;
+	padding: 0;
+}
+
+#cameras {
+	padding: 0 0 10% 5%;
+}
+
+#accessories img {
+	float: right;
+	width: 45%;
+	margin: 0;
+	padding: 0;
+}
+
+#accessories  {
+	padding: 0 0 10% 5%;
+	
+}
+
+
+#film img {
+	float: right;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+#film {
+	padding: 0 0 0 5%;
+}
+
+
+/*This ends the products page styling*/
+
+/*This begins the services page styling*/
+
+#repairservices img {
+	float: right;
+	width: 40%;
+	margin: 0;
+	padding: 0;
+}
+
+#repairservices  {
+	padding: 0 0 10% 0;
+}
+
+#developservices img {
+	float: right;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+
+#developservices  {
+	
+}
+
+
+
+
+/*This is an extremely crucial layout feature; if footer not formatted properly then it will feel under-designed!!!!!!!!!-----------*/
+
+footer {
+	padding: 0 0 0 0;
+	background-color: #c0c2c4;	
+	clear: both;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+footer li {
+	list-style-type: none;
+}
+
+footer img {
+	width: 12%;
+	padding: 4%;
+}
+
+footer p {
+	clear: both;
+	font-size: .5em;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0 0 2% 0;
+}
+
+#nav-shadow li {
+	display: inline;
+	padding: 0 3%;
+}
+
+.hours-location {
+	float: left;	
+}
+
+/*---------This is the attempted "nav-shadow" JavaScript CSS markup---------*/
+
+
+/*This should only be inside of the desktop media queries!!!!!-----------*/
+
+#nav-shadow {
+			
+	padding: 2% 0 0 0;
+	width: 45%;
+	min-height: 60px;		
+	background: url(../images/page-shadow.jpg) top center no-repeat;
+	background-color: #c0c2c4;
+	list-style: none;
+	float: right;
+}
+#nav-shadow li {
+	margin-right: 15px;
+	width: 40px;
+	height: 50px;
+	position: relative;
+	float: left;
+}
+			
+#nav-shadow a, #nav-shadow a:visited, #nav-shadow a, #nav-shadow a:hover {
+	margin: 0 auto;
+	width: 30px;
+	height: 60px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(../images/social-media.png) no-repeat;
+	display: block;
+	position: relative;
+	z-index: 2;
+			}
+			
+/*--------------------------Button Colors------------------------------*/
+		
+#nav-shadow li.button-color-1 a {
+	background-position: 3px 0px;
+}
+			
+#nav-shadow li.button-color-2 a {
+	background-position: -26px 0px;
+}
+			
+#nav-shadow li.button-color-3 a {
+	background-position: -54px 0px;
+}
+			
+#nav-shadow li.button-color-4 a {
+	background-position: -83px 0px;
+}
+			
+/*---------------------------Button Shadow------------------------------*/
+		
+#nav-shadow li img.shadow {
+	margin: 0 auto;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+}
+		
+#social-media2 {
+	background-color: #c0c2c4;
+	clear: both;
+}
+
+#social-media2 p {
+	padding: 5% 0 0 2%;
+	clear: both;
+	font-size: .5em;
+	margin: 0;
+}
+
+
+/*--------------This is the form styling----------*/
+
+/*------------This is specific to the desktop version/queries------------*/
+
+/*Actually this style is OK until around 550px-----keep this in mind!!!!!*/
+
+.base-form {
+	float: left;
+	width: 50%;	
+}
+
+.product-details {
+	float: right;
+	width: 50%;
+}
+
+.service-details {
+	float: right;
+	width: 50%;
+}
+
+.base-form {
+	border: none;
+	float: left;
+}
+
+.base-form legend {
+	font-family: 'andadaitalic', Georgia, serif;
+  	font-size: 1.5em;
+  	font-weight: normal;
+  	color: #D73624;
+  	background: none;
+}
+
+.product-details {
+	border: none;	
+}
+
+.product-details legend {
+	font-family: 'andadaitalic', Georgia, serif;
+  	font-size: 1.5em;
+  	font-weight: normal;
+  	color: #D73624;
+  	background: none;
+}
+
+.product-details textarea {
+	height: 210px;
+}
+
+#develop-form input[type="submit"] {
+	font-size: 1em;
+  	padding: .25em;
+  	color: white;
+  	border: 5px solid white;
+  	background-color: #D73624;
+  	width: 50%;
+	float: right;
+}
+
+.service-details {
+	border: none;
+		
+}
+
+.service-details legend {
+	font-family: 'andadaitalic', Georgia, serif;
+  	font-size: 1.5em;
+  	font-weight: normal;
+  	color: #D73624;
+  	background: none;
+}
+
+.service-details textarea {
+	height: 210px;
+}
+
+#repair-form {
+	width: 100%;
+}
+
+#repair-form input[type="submit"] {
+	font-size: 1em;
+  	padding: .25em;
+  	color: white;
+  	border: 5px solid white;
+  	background-color: #D73624;
+  	width: 50%;
+	float: right;
+}
+
+
+#shipping-info {
+	display: inline-block;
+}
+
+#shipping-info p {
+	padding: 0 0 0 5%;
+}
+
+#shipping-info ul {
+	padding: 0 0 3% 15%;	
+	width: 100%;
+}
+
+#shipping-info li {
+	list-style-type: none;
+	
+}
+
+
+/*---------------navigation styling--------------*/
+
+.top-bar {
+	background-color: #dc3e28;
+	margin: 0 auto;
+}
+
+.top-bar-section {
+	background-color: #DC3E28;
+	padding: 0 0 0 25%;
+	margin: 0 auto;
+}
+
+.top-bar-section li a:not(.button) {
+  	padding: 0 15px;
+  	line-height: 45px;
+  	background: #dc3e28;
+	margin: 0 auto;
+	font-family: 'andadaregular', Georgia, serif;
+}
+
+.right {
+	float: none !important;
+	margin: 0 auto !important;
+	
+}
+
+
+.logo-header {
+	width: 100%;
+	background: url(../images/lumen-logo-white-version.tif) no-repeat center;
+}
+
+/*---------ending navigation styling--------*/
+
+/*--------Events page styling---------*/
+
+#events{
+	width: 75%;
+	margin: 0 auto;
+
+}
+
+
+
+/*---------events page styling end--------*/
+
+/*--------About page styling---------*/
+
+#aboutpage{
+	padding: 0 5%;
+	margin: 0 auto;
+
+}
+
+
+
+/*---------About page styling end--------*/
+
+/*---------begins register page-------*/
+
+#registerpage {
+	background: url(../images/register.jpg);
+	padding: 0;	
+	min-height: 500px;
+}
+
+#registerpage form {
+	padding: 0 0 0 0;
+	margin: 0;
+}
+
+
+#registerpage fieldset {
+	border: none;	
+	width: 50%;
+	margin: 0 auto;
+}
+
+#registerpage legend {
+	padding: 10% 0 0 0;
+	font-family: 'andadaitalic', Georgia, serif;
+  	font-size: 1.5em;
+  	font-weight: normal;
+  	color: #D73624;
+  	background: none;
+}
+
+#registerpage input[type="email"] {
+	display: block;
+	font-size: 1em;
+	padding: .25em;
+	color: #FFF;
+	border: 5px solid white;
+	background-color: #D73624;
+	width: 65%;
+	float: left;
+}
+
+#registerpage input[type="submit"] {
+	font-size: 1em;
+	padding: .25em;
+	color: white;
+	border: 5px solid white;
+	background-color: #D73624;
+	width: 30%;
+	float: right;
+	/*margin: 0 3% 0 0;*/
+
+}
+
+
+
+
+/*---------ends the register page--------*/
+
+
+/*-------MEDIA QUERIES------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*---------ending the media queries---------*/

@@ -9,6 +9,7 @@ margin:0 auto;
 }
 
 #body-wrapper {
+max-width: 1028px;
 min-height:100%;
 height:auto !important;
 height:100%;
@@ -28,6 +29,7 @@ width:100%;
 #body {
 position:absolute;
 width:100%;
+max-width: 1028px;
 }
 
 #footer {

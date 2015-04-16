@@ -1,0 +1,1285 @@
+@font-face {
+    font-family: 'andadabold';
+    src: url('../fonts/andada-bold-webfont.eot');
+    src: url('../fonts/andada-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andada-bold-webfont.woff') format('woff'),
+         url('../fonts/andada-bold-webfont.ttf') format('truetype'),
+         url('../fonts/andada-bold-webfont.svg#andadabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'andadabold_italic';
+    src: url('../fonts/andada-bolditalic-webfont.eot');
+    src: url('../fonts/andada-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andada-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/andada-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/andada-bolditalic-webfont.svg#andadabold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'andadaitalic';
+    src: url('../fonts/andada-italic-webfont.eot');
+    src: url('../fonts/andada-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andada-italic-webfont.woff') format('woff'),
+         url('../fonts/andada-italic-webfont.ttf') format('truetype'),
+         url('../fonts/andada-italic-webfont.svg#andadaitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'andadaregular';
+    src: url('../fonts/andada-regular-webfont.eot');
+    src: url('../fonts/andada-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andada-regular-webfont.woff') format('woff'),
+         url('../fonts/andada-regular-webfont.ttf') format('truetype'),
+         url('../fonts/andada-regular-webfont.svg#andadaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'andada_scbold';
+    src: url('../fonts/andadasc-bold-webfont.eot');
+    src: url('../fonts/andadasc-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andadasc-bold-webfont.woff') format('woff'),
+         url('../fonts/andadasc-bold-webfont.ttf') format('truetype'),
+         url('../fonts/andadasc-bold-webfont.svg#andada_scbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'andada_scbold_italic';
+    src: url('../fonts/andadasc-bolditalic-webfont.eot');
+    src: url('../fonts/andadasc-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andadasc-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/andadasc-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/andadasc-bolditalic-webfont.svg#andada_scbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'andada_scitalic';
+    src: url('../fonts/andadasc-italic-webfont.eot');
+    src: url('../fonts/andadasc-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andadasc-italic-webfont.woff') format('woff'),
+         url('../fonts/andadasc-italic-webfont.ttf') format('truetype'),
+         url('../fonts/andadasc-italic-webfont.svg#andada_scitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'andada_scregular';
+    src: url('../fonts/andadasc-regular-webfont.eot');
+    src: url('../fonts/andadasc-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andadasc-regular-webfont.woff') format('woff'),
+         url('../fonts/andadasc-regular-webfont.ttf') format('truetype'),
+         url('../fonts/andadasc-regular-webfont.svg#andada_scregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	margin: 0;
+	font-family: 'andadaregular', Georgia, serif;
+	font-size: 1em;
+	line-height: 2;
+	background-color: #fcfcec;
+}
+nav {
+
+}
+
+nav a:link, nav a:visited {
+	text-decoration: none;
+	color: white;	
+}
+nav a:hover, nav a:active {
+}
+h1 {
+	font-family: 'andada_scregular', Georgia, serif;
+	font-size: 2em;
+	color: #D73624;
+	font-weight: normal;
+}
+h2{
+	font-family: 'andadaitalic', Georgia, serif;
+	font-size: 1.5em;
+	font-weight: normal;
+			
+}
+fieldset {
+		border: none;
+	}
+	 legend {
+		font-family: 'andadaitalic', Georgia, serif;
+		font-size: 1.5em;
+		font-weight: normal;	
+		color: #D73624;
+		padding: 10% 0 0 0;
+	}
+	#repairservices a:link, a:visited {
+		color: #c0c2c4;
+		font-family: 'andadabold', Georgia, serif;
+		text-decoration: none;
+	}
+	#repairservices a:hover, a:active {
+		color: #d73827;
+		font-family: 'andadabold', Georgia, serif;
+		text-decoration: none;
+	}
+	#developservices a:link, a:visited {
+		color: #c0c2c4;
+		font-family: 'andadabold', Georgia, serif;
+		text-decoration: none;
+	}
+	#developservices a:hover, a:active {
+		color: #d73827;
+		font-family: 'andadabold', Georgia, serif;
+		text-decoration: none;
+	}
+	li {
+		list-style-type: none;
+	}
+	
+	#shipping-info p {
+		font-family: 'andadaitalic', Georgia, serif;
+		font-size: 1.25em;
+		font-weight: normal;		
+		padding: 0 0 0 5%;
+		margin: 0;
+	}
+	#shipping-info ul{
+		padding: 0 0 0 5%;	
+	}
+	
+
+
+	
+@media only screen and (max-width: 320px){
+	#example-one {
+	margin: 0;
+	padding-left: 0;
+	text-align: center;
+	width: 100%;
+	background: url(../images/lumenlogo-reverse.png) no-repeat top center/30%;
+	background-color: #d73827;
+	font-family: 'andadaregular', Georgia, serif;
+}
+#example-one li {
+	list-style-type: none;
+	padding: 5% 0 0 0;
+}
+#example-one:first-of-type {
+	list-style-type: none;
+	padding: 18% 0 0 0;
+}
+nav ul li:last-of-type {
+	list-style-type: none;
+	padding: 5% 0 5% 0;
+}
+#example-one a {
+	color: white;
+	text-decoration: none;
+}
+
+
+							/*This is the HOME page styling-smartphone*/
+
+	#compdescription img {
+		width: 100%;
+		padding: 2% 0;		
+}
+	#compdescription h1 {
+		padding: 0 0 0 10%;
+		margin: 0;
+		width: inherit;
+		font-weight: normal;
+	}
+	#compdescription h2 {
+		padding: 0 0 2% 20%;
+		margin: 0;
+		width: inherit;
+		font-weight: normal;
+	}
+	#compdescription p {
+		padding: 0 0 5% 0;
+		margin: 0 5%;
+		width: inherit;
+		border-bottom: 1pt solid black;
+	}
+	#emailsubmit {
+		padding: 5% 0 0 0;
+		margin: 0 auto;
+		width: 100%;
+	}
+	#emailsubit label {
+		padding: 0 0 2% 0;
+		display: block;
+	}
+	#emailsubmit input[type="email"] {
+		display: block;
+		font-size: 1em;
+		padding: .25em;
+		margin: 2% 5% 0 10%;
+		color: #FFF;
+		border: 5px solid white;
+		background-color: #D73624;
+		width: 75%;
+	}
+	#emailsubmit input[type="submit"] {
+		font-size: 1em;
+		width: 40%;
+		padding: .25em;
+		margin: 2% 5% 0 10%;
+		color: white;
+		border: 5px solid white;
+		background-color: #D73624;
+		float: right;
+	}
+	
+								/*This is the PRODUCTS page styling-smartphone*/
+
+	#products h1 {
+		padding: 0 0 0 4%;
+		font-weight: normal;
+	}
+	#cameras {
+		background: url(../images/camera-products.png) no-repeat top center/80%;
+	}
+	#cameras h2 {
+		margin: 0;
+		padding: 57% 7% 0 7%;
+	}
+	#cameras p {
+		margin: 0 auto;
+		padding: 0% 5% 30% 5%;
+	}
+	#accessories {
+		padding: 10% 0 0 0;
+		background: url(../images/accessories.png) no-repeat top center/90%;
+	}
+	#accessories h2 {
+		margin: 0;
+		padding: 55% 0 0 10%;
+	}
+	#accessories p {
+		margin: 0;
+		padding: 0% 5% 25% 5%;
+	}
+	#film {
+		background: url(../images/develop-film.png) no-repeat top center/80%;
+	}
+	#film h2 {
+		margin: 0;
+		padding: 50% 0 0 10%;
+	}
+	#film p {
+		margin: 0;
+		padding: 0% 5% 10% 5%;
+	}
+	
+								/*This is the SERVICES page styling-smartphone*/
+
+	
+	#services h1 {
+		padding: 0 0 0 5%;
+	}
+	#repairservices {
+		background: url(../images/camera-repair.png) no-repeat top center/80%;
+		width: 100%;
+	}
+	#repairservices h2 {
+		margin: 0;
+		padding: 57% 7% 0 15%;
+	}
+	#repairservices p {
+		margin: 0;
+		padding: 0% 5% 30% 5%;
+	}
+	#developservices {
+		background: url(../images/develop.png) no-repeat top center/80%;
+		width: 100%;
+	}
+	#developservices h2 {
+		margin: 0;
+		padding: 45% 7% 0 15%;
+	}
+	#developservices p {
+		margin: 0;
+		padding: 0% 5% 10% 5%;
+	}
+	
+							/*This is the SERVICES-FORMS styling-smartphone*/
+	
+	input[type="text"] { 
+		width: 75%;
+		display: block;
+	}
+	input[type="tel"] { 
+		width: 75%;
+		display: block;
+	}
+	label {
+		display: block;
+		padding: 5% 5% 0 0;
+		width: 75%;	
+	}
+	#telephone, #cellphone, #prints, #email, #state {
+		width: 75%;
+		display: block;
+	}
+	#state-develop {
+		width: 40%;
+	}
+	#state-repair {
+		width: 40%;
+	}
+	#shipping-info p {
+		font-family: 'andadaitalic', Georgia, serif;
+		font-size: 1.25em;
+		font-weight: normal;		
+		padding: 0 0 0 5%;
+		margin: 0;
+	}
+	#shipping-info ul{
+		padding: 0 0 0 5%;	
+	}
+	text-area {
+		width: 90%;
+			
+	}
+	#repair-form input[type="submit"] {
+		font-size: 1em;
+		width: 40%;
+		padding: .25em;
+		margin: 0 5% 0 0;
+		color: white;
+		border: 5px solid white;
+		background-color: #D73624;
+		float: left;
+		clear: both;
+	}
+	#develop-form input[type="submit"] {
+		font-size: 1em;
+		width: 40%;
+		padding: .25em;
+		margin: 0 5% 0 0;
+		color: white;
+		border: 5px solid white;
+		background-color: #D73624;
+		float: left;
+		clear: both;
+	}
+	#repair-form fieldset {
+		width: 80%;
+		
+	}
+	#develop-form fieldset {
+		width: 80%;
+		
+	}
+										/*This is the EVENTS styling-smartphone*/
+	.content {
+		display: none;
+	}
+	figure {
+		margin: 0;
+		width: 100%;
+		padding: 0 0 20% 0;
+	}
+	figure img {
+		width: 100%;
+		
+	}
+	figure h3 {
+		width: 90%;
+		padding: 0 0 0 5%;
+		color: #D73624;
+		margin: 0;
+	}
+	figure p {
+		margin: 0;
+		width: 90%;
+		padding: 0 0 0 2%;
+	}
+	
+	
+	
+								/*This is the ABOUT styling-smartphone*/
+	
+	#openinggraphic {
+		background: url(../images/about.png) no-repeat top center/100%;
+	}
+	
+	#openinggraphic p:first-of-type {
+		padding: 80% 0 5% 0;
+		border-bottom: 1pt solid black;
+		margin: 0 5% 0 5%;	
+	}
+	#aboutpage p {
+		padding: 0 5% 0 5%;	
+	}
+	footer {
+	padding: 0 0 0 0;
+	background-color: #c0c2c4;	
+	clear: both;
+	}
+	#social-media {
+		float: right;
+		width: 90%; 
+	}
+	footer img {
+	width: 12%;
+	padding: 4%;
+}
+	footer p {
+		clear: both;
+		font-size: .5em;
+		margin: 0;
+	}
+	
+							/*This is the REGISTER styling-smartphone*/
+							
+	#registerpage {
+		background: url(../images/register-smartphone.jpg) no-repeat top center/100%;
+		padding: 0 0 30% 0;	
+	}
+	#registerpage form {
+		width: 90%;
+		padding: 0 0 0 5%;
+	}
+	#registerpage input[type="text"] {
+		width: 90%;
+		padding: 0 0 0 5%;
+	}
+	#registerpage input[type="submit"] {
+		display: block;
+		font-size: 1em;
+		width: 50%;
+		padding: .25em;
+		margin: 2% 5% 0 10%;
+		color: white;
+		border: 5px solid white;
+		background-color: #D73624;
+	}
+	#social-media2 {
+		display: none;
+	}
+	.hours-location {
+		clear: both;
+		width: 50%;
+		margin: 0 auto;
+	}
+	.hours-location ul {
+		font-size: .75em;
+		text-align: center;
+		padding: 2% 5% 0 2%;
+	}
+	.formline-register {
+		width: 100%;
+		padding: 0;
+								
+}
+	.register-legend {
+		margin: 0 auto;
+		padding: 0 0 0 0;
+		width: 90%;
+}
+	#registerpage fieldset {
+		width: 40%;
+	}
+}
+
+
+@media only screen and (min-width: 321px) and (max-width: 800px){
+	#example-one {
+	margin: 0;
+	padding-left: 0;
+	text-align: center;
+	width: 100%;
+	background: url(../images/lumenlogo-reverse.png) no-repeat top center/30%;
+	background-color: #d73827;
+	font-family: 'andadaregular', Georgia, serif;
+}
+#example-one li {
+	list-style-type: none;
+	padding: 5% 0 0 0;
+}
+#example-one:first-of-type {
+	list-style-type: none;
+	padding: 18% 0 0 0;
+}
+nav ul li:last-of-type {
+	list-style-type: none;
+	padding: 5% 0 5% 0;
+}
+#example-one a {
+	color: white;
+	text-decoration: none;
+}
+
+							/*This is the HOME page styling-tablet*/
+
+
+	#compdescription img {
+		width: 100%;
+		padding: 2% 0;		
+}
+	#compdescription h1 {
+		padding: 0 0 0 10%;
+		margin: 0;
+		width: inherit;
+	}
+	#compdescription h2 {
+		padding: 0 0 2% 20%;
+		margin: 0;
+		width: inherit;
+	}
+	#compdescription p {
+		padding: 0 0 5% 0;
+		margin: 0 5%;
+		width: inherit;
+		border-bottom: 1pt solid black;
+		width: 85%;
+	}
+	#emailsubmit {
+		padding: 5% 0 0 0;
+		margin: 0 auto;
+		width: 80%;
+	}
+	#emailsubit label {
+		padding: 0 0 2% 0;
+		display: block;
+	}
+	#emailsubmit input[type="email"] {
+		display: block;
+		font-size: 1em;
+		width: 50%;
+		padding: .25em;
+		margin: 2% 5% 0 10%;
+		color: white;
+		border: 5px solid white;
+		background-color: #D73624;
+		float: left;
+	}
+	#emailsubmit input[type="submit"] {
+		font-size: 1em;
+		width: 30%;
+		padding: .25em;
+		/*margin: 2% 5% 0 10%;*/
+		color: white;
+		border: 5px solid white;
+		background-color: #D73624;
+		float: right;
+	}
+	
+	
+								/*This is the PRODUCTS page styling-tablet*/
+
+	#products h1 {
+		padding: 5% 5% 10% 5%;
+	}
+	#cameras {
+		background: url(../images/camera-products.png) no-repeat top center/80%;
+	}
+	#cameras h2 {
+		margin: 0;
+		padding: 57% 7% 0 7%;
+	}
+	#cameras p {
+		margin: 0 auto;
+		padding: 0% 5% 30% 5%;
+	}
+	#accessories {
+		padding: 10% 0 0 0;
+		background: url(../images/accessories.png) no-repeat top center/90%;
+	}
+	#accessories h2 {
+		margin: 0;
+		padding: 55% 0 0 10%;
+	}
+	#accessories p {
+		margin: 0;
+		padding: 0% 7% 25% 7%;
+	}
+	#film {
+		background: url(../images/develop-film.png) no-repeat top center/80%;
+	}
+	#film h2 {
+		margin: 0;
+		padding: 50% 0 0 10%;
+	}
+	#film p {
+		margin: 0;
+		padding: 0% 7% 10% 7%;
+	}
+	
+								/*This is the SERVICES page styling-tablet*/
+
+	#services h1 {
+		padding: 0 0 0 5%;	
+	}
+	#repairservices {
+		background: url(../images/camera-repair.png) no-repeat top center/80%;
+		width: 100%;
+	}
+	#repairservices h2 {
+		margin: 0;
+		padding: 57% 7% 0 15%;
+	}
+	#repairservices p {
+		margin: 0;
+		padding: 0% 5% 10% 5%;
+	}
+	#developservices {
+		background: url(../images/develop.png) no-repeat top center/80%;
+		width: 100%;
+	}
+	#developservices h2 {
+		margin: 0;
+		padding: 45% 7% 0 15%;
+	}
+	#developservices p {
+		margin: 0;
+		padding: 0% 5% 10% 5%;
+	}
+	
+								/*This is the SERVICES-FORM styling-tablet*/
+
+	form {
+		width: 85%;
+		margin: 0 auto;	
+	}
+	.formline {
+		display: block;	
+	}
+	label {
+		padding: 0 5% 0 0;
+		text-align: right;
+	}
+	#prints {
+		width: 70%;
+	}
+
+	
+	#state {
+		width: 40%;
+	}
+	
+	#repair-form input[type="submit"] {
+		font-size: 1em;
+		width: 20%;
+		padding: .25em;
+		margin: 0 5% 0 0;
+		color: white;
+		border: 5px solid white;
+		background-color: #D73624;
+		float: left;
+		clear: both;
+	}
+	#develop-form input[type="submit"] {
+		font-size: 1em;
+		width: 20%;
+		padding: .25em;
+		margin: 0 5% 0 0;
+		color: white;
+		border: 5px solid white;
+		background-color: #D73624;
+		float: left;
+		clear: both;
+	}
+										/*This is the EVENTS styling-tablet*/
+	.content {
+		display: none;
+	}
+	figure {
+		margin: 0;
+		width: 100%;
+		padding: 0 0 15% 0;
+	}
+	figure img {
+		width: 100%;
+		
+	}
+	figure h3 {
+		width: 90%;
+		padding: 0 0 0 5%;
+		color: #D73624;
+		margin: 0;
+	}
+	figure p {
+		margin: 0;
+		width: 90%;
+		padding: 0 0 0 2%;
+	}
+	
+	
+	
+										/*This is the ABOUT styling-tablet*/
+	
+	#openinggraphic {
+		background: url(../images/about.png) no-repeat top center/100%;
+	}
+	
+	#openinggraphic p:first-of-type {
+		padding: 80% 0 5% 0;
+		border-bottom: 1pt solid black;
+		margin: 0 5% 0 5%;	
+	}
+	#aboutpage p {
+		padding: 0 5% 0 5%;	
+	}
+	
+	
+									/*This is the REGISTER styling-tablet*/
+							
+	#registerpage {
+		background: url(../images/register-smartphone.jpg) no-repeat top center/100%;
+		padding: 0 0 50% 0;	
+	}
+	#registerpage form {
+		margin: 0 auto;
+	}
+	#registerpage input[type="submit"] {
+		font-size: 1em;
+		width: 40%;
+		padding: .25em;
+		margin: 0 5% 0 0;
+		color: white;
+		border: 5px solid white;
+		background-color: #D73624;
+		float: left;
+	}
+	
+	
+	.register-legend {
+		margin: 0 auto;
+		padding: 0 0 0 0;
+		width: 50%;
+}
+	#registerpage fieldset {
+		width: 50%;
+	}
+	footer {
+	background-color: #c0c2c4;	
+	clear: both;
+	}
+	#social-media {
+		float: right;
+		width: 40%; 
+	}
+	footer img {
+	width: 12%;
+	padding: 5%;
+}
+	footer p {
+		clear: both;
+		font-size: .5em;
+		margin: 0;
+		padding: 0 0 0 2%;
+	}
+	#social-media2 {
+		display: none;
+	}
+	.hours-location {
+		width: 50%;
+	}
+	.hours-location ul {
+		font-size: .75em;
+		text-align: center;
+		padding: 2% 5% 0 2%;
+	}
+	
+}
+
+@media only screen and (min-width: 801px){
+	#container {
+		max-width: 960px;
+		margin: 0 auto;
+	}
+	
+	* { margin: 0; padding: 0; }
+
+
+header { padding: 100px 0 0 0; display: block; }
+header h1 { width: 100%; margin: 0 auto; }
+a { color: #eee; }
+a:hover { color: white; }
+
+.nav-wrap { 
+	background: url(../images/lumenlogo-reverse.png) no-repeat top center/20%;
+	background-color: #D73624; 
+	border-top:    2px solid white; 
+	border-bottom: 2px solid white; 
+	padding: 12% 0 0 0;
+}
+
+/* Clearfix */
+.group:after { visibility: hidden; display: block; content: ""; clear: both; height: 0; }
+
+
+
+
+/* Example One */
+#example-one { 
+	margin: 0 auto; 
+	list-style: none; 
+	position: relative; 
+	width: 100%; 
+}
+#example-one li { 
+	display: inline-block;	
+	margin: 0 4% 0 0;
+}
+#example-one li:first-of-type { 
+	display: inline-block;	
+	margin: 0 4% 0 15%;
+}
+#example-one a { 
+	color: #bbb; 
+	font-size: 1em; 
+	float: left;
+	padding: 6px 10px 4px 10px;
+	text-decoration: none;
+	
+}
+#example-one a:hover { 
+	color: white; 
+}
+#magic-line { 
+	position: absolute;
+	bottom: -2px; 
+	left: 0; 
+	width: 100px; 
+	height: 2px; 
+	background: #fe4902;
+}
+.current_page_item a { 
+	color: white !important; 
+}
+.ie6 #example-one li, .ie7 #example-one li { 
+	display: inline; 
+}
+.ie6 #magic-line {
+	bottom: -3px;
+}
+
+
+							/*This is the HOME page styling-desktop*/
+
+	#compdescription img {
+		width: 40%;
+		padding: 2% 0;	
+		float: left;	
+}
+	#compdescription h1 {
+		padding: 0 5% 0 0;
+		margin: 0;
+		width: 50%;
+		float: right;
+	}
+	#compdescription h2 {
+		padding: 0 0 2% 5%;
+		margin: 0;
+		width: 50%;
+		float: right;
+	}
+	#compdescription p {
+		padding: 0 0 5% 0;
+		margin: 0 5%;
+		width: 50%;
+		float: right;
+		border-bottom: 1pt solid black;
+	}
+	#emailsubmit {
+		padding: 5% 0 0 45%;
+		margin: 0 auto;
+		width: 50%;
+		clear: both;
+	}
+	#emailsubmit legend {
+		font-family: 'andadaitalic', Georgia, serif;
+		font-size: 1.25em;
+		color: #D73624;
+	}
+	#emailsubit label {
+		padding: 0 0 2% 0;
+		display: block;
+	}
+	#emailsubmit input[type="email"] {
+		display: block;
+		font-size: 1em;
+		padding: .25em;
+		margin: 2% 5% 0 20%;
+		color: #FFF;
+		border: 5px solid white;
+		background-color: #D73624;
+		width: 60%;
+	}
+	#emailsubmit input[type="submit"] {
+		font-size: 1em;
+		width: 30%;
+		padding: .25em;
+		margin: 2% 5% 0 10%;
+		color: white;
+		border: 5px solid white;
+		background-color: #D73624;
+		float: right;
+	}
+	
+								/*This is the PRODUCTS page styling-desktop*/
+
+	#products h1 {
+		padding: 5% 5% 0 5%;
+	}
+	#cameras {
+		background: url(../images/camera-products.png) no-repeat center right/60%;
+	}
+	#cameras h2 {
+		margin: 0;
+		padding: 2% 0 0 10%
+	}
+	#cameras p {
+		margin: 0;
+		padding: 0% 45% 10% 5%;
+	}
+	#accessories {
+		background: url(../images/accessories.png) no-repeat center right/50%;
+	}
+	#accessories h2 {
+		margin: 0;
+		padding: 10% 0 0 10%
+	}
+	#accessories p {
+		margin: 0;
+		padding: 0% 50% 10% 5%;
+	}
+	#film {
+		background: url(../images/develop-film.png) no-repeat center right/45%;
+	}
+	#film h2 {
+		margin: 0;
+		padding: 10% 0 0 10%
+	}
+	#film p {
+		margin: 0;
+		padding: 0% 45% 10% 5%;
+	}
+	
+								/*This is the SERVICES page styling-desktop*/
+
+	#services h1 {
+		padding: 0 0 0 5%;	
+	}
+	#repairservices {
+		padding: 10% 0 0 0;
+		background: url(../images/camera-repair.png) no-repeat center right/50%;
+		width: 100%;
+	}
+	#repairservices h2 {
+		margin: 0;
+		padding: 0 7% 0 10%;
+	}
+	#repairservices p {
+		margin: 0;
+		padding: 0% 50% 10% 5%;
+	}
+	#developservices {
+		padding: 10% 0 0 0;
+		background: url(../images/develop.png) no-repeat center right/50%;
+		width: 100%;
+	}
+	#developservices h2 {
+		margin: 0;
+		padding: 0 7% 0 10%;
+	}
+	#developservices p {
+		margin: 0;
+		padding: 0% 50% 10% 5%;
+	}
+	
+								/*This is the SERVICES-DEVELOP form styling-desktop*/
+
+	#prints {
+		width: 50%;
+	}
+	#develop-form fieldset {
+		padding: 0 0 0 2%;
+		width: 45%;
+		float: left;
+	}
+	#repair-form fieldset {
+		padding: 0 0 0 2%;
+		width: 45%;
+		float: left;
+	}
+	#shipping-info {
+		clear: both;
+		padding: 0 0 0 50%;
+	
+}
+
+#repair-form input[type="submit"] {
+		font-size: 1em;
+		width: 20%;
+		padding: .25em;
+		margin: 0 5% 0 0;
+		color: white;
+		border: 5px solid white;
+		background-color: #D73624;
+		float: right;
+		clear: both;
+	}
+	#develop-form input[type="submit"] {
+		font-size: 1em;
+		width: 20%;
+		padding: .25em;
+		margin: 0 5% 0 0;
+		color: white;
+		border: 5px solid white;
+		background-color: #D73624;
+		float: right;
+		clear: both;
+	}
+							/*This is the ABOUT styling-desktop*/
+	
+	#openinggraphic {
+		background: url(../images/about.png) no-repeat top center/100%;
+	}
+	
+	#openinggraphic p:first-of-type {
+		padding: 80% 0 5% 0;
+		border-bottom: 1pt solid black;
+		margin: 0 5% 0 5%;	
+	}
+	#aboutpage p {
+		padding: 0 5% 0 5%;	
+	}
+
+	
+									/*This is the REGISTER styling-desktop*/
+							
+	#registerpage {
+		background: url(../images/register.jpg) no-repeat top center/100%;
+		padding: 0 0 30% 0;	
+	}
+	#registerpage form {
+		padding: 0 0 0 40%;
+	}
+	#registerpage input[type="submit"] {
+		font-size: 1em;
+		width: 40%;
+		padding: .25em;
+		margin: 0 5% 0 0;
+		color: white;
+		border: 5px solid white;
+		background-color: #D73624;
+		float: left;
+		clear: both;
+	}
+	#registerpage label {
+		padding: 0 5% 0 0;
+	}
+	#registerpage #email {
+		width: 26%;	
+	}
+	#registerpage #password {
+		width: 22%;	
+	}
+	footer {
+	background-color: #c0c2c4;	
+	}
+	#social-media {
+		float: right;
+		width: 30%; 
+	}
+	footer img {
+	width: 10%;
+	padding: 3%;
+	}
+	footer p {
+		clear: both;
+		font-size: .5em;
+		margin: 0;
+	}
+	#nav-shadow {
+			
+			padding: 2% 0 0 0;
+			width: 35%;
+			min-height: 60px;
+			
+			background: url(../images/page-shadow.jpg) top center no-repeat;
+			background-color: #c0c2c4;
+			list-style: none;
+			float: right;
+			}
+	#nav-shadow li {
+			margin-right: 15px;
+			width: 40px;
+			height: 50px;
+			position: relative;
+			float: left;
+			}
+			
+		#nav-shadow a, #nav-shadow a:visited, #nav-shadow a, #nav-shadow a:hover {
+			margin: 0 auto;
+			width: 30px;
+			height: 60px;
+			text-indent: -9999px;
+			overflow: hidden;
+			background: url(../images/social-media.png) no-repeat;
+			display: block;
+			position: relative;
+			z-index: 2;
+			}
+			
+		/* Button Colors */
+		
+		#nav-shadow li.button-color-1 a {
+			background-position: 3px 0px;
+			}
+			
+		#nav-shadow li.button-color-2 a {
+			background-position: -26px 0px;
+			}
+			
+		#nav-shadow li.button-color-3 a {
+			background-position: -54px 0px;
+			}
+			
+		#nav-shadow li.button-color-4 a {
+			background-position: -83px 0px;
+			}
+			
+		/* Button Shadow */
+		
+		#nav-shadow li img.shadow {
+			margin: 0 auto;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: 1;
+			width: 100%;
+			}
+		#social-media2 {
+			background-color: #c0c2c4;
+			clear: both;
+		}
+		#social-media2 p {
+		padding: 5% 0 0 2%;
+		clear: both;
+		font-size: .5em;
+		margin: 0;
+	}
+	footer {
+	display: none;
+	}
+	.hours-location ul {
+		font-size: .75em;
+		float: left;
+		text-align: center;
+		padding: 2% 5% 0 2%;
+	}
+	a img{
+                border:none;
+                outline:none;
+            }
+            .ad{
+                position:absolute;
+                right:10px;
+                top:5px;
+                width:470px;
+                height:70px;
+            }
+      
+            .about{
+                width:100%;
+                height:100%;
+                background-color:#AFD9E4;
+                border-top:2px solid #fff;
+                border-bottom:2px solid #fff;
+                clear:both;
+            }
+            .about .text{
+                width:45%;
+                margin:5px 2% 10px 2%;
+                height:180px;
+                float:left;
+                color:#444;
+                font-size: 12px;
+    
+                letter-spacing:0px;
+            }
+            .about .text h1{
+                border-bottom: 1px dashed #fff;
+                color:#fff;
+            }
+            .demo{
+               margin: 0 auto;
+				padding: 0 0 5% 0;
+				
+            }
+			.ic_container{
+    vertical-align:baseline;
+    margin:10px;
+    position:relative;
+    /*-moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -khtml-border-radius:10px;
+    -moz-box-shadow: 0 1px 3px #888;
+    -webkit-box-shadow: 0 1px 3px #888;*/
+	margin: 0 auto;
+}
+.overlay{
+    opacity:0.3;
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+	
+    
+}
+.ic_caption{
+    position:absolute;    
+    opacity:0.9;   
+    overflow:hidden;
+    margin:0px;
+    padding:0px;
+    left:0px;
+    right:0px;
+    cursor:default;
+
+}
+.ic_category{
+    text-transform:uppercase;
+    font-size: .75em;
+    letter-spacing:3px;
+    padding:5px;
+    margin:0px;
+}
+.ic_caption h3{
+    padding:0px 5px 5px 5px;
+    margin:0px;
+    font-size: 1.25em;
+}
+.ic_text{
+    padding: 2%;
+    margin:0px;
+    text-align:justify;
+    font-size: 1em;
+
+}
+.events2 {
+	display: none;
+}
+	
+}
