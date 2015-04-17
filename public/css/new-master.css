@@ -308,9 +308,22 @@ footer p {
 	padding: 0 0 2% 0;
 }
 
+#nav-shadow {
+	width: 100%;
+	margin: 0 auto;
+}
+
 #nav-shadow li {
 	display: inline;
 	padding: 0 3%;
+}
+
+footer ul {
+	padding: 10% 0 0 0;
+}
+
+footer ul li {
+	font-size: .5em;
 }
 
 .hours-location {
@@ -332,6 +345,8 @@ footer p {
 	list-style: none;
 	float: right;
 }
+
+
 #nav-shadow li {
 	margin-right: 15px;
 	width: 40px;
@@ -524,6 +539,25 @@ footer p {
   	background: #dc3e28;
 	margin: 0 auto;
 	font-family: 'andadaregular', Georgia, serif;
+}
+
+.top-bar-section li a:not(.button):hover {
+  	padding: 0 15px;
+  	line-height: 45px;
+  	background: #dc3e28;
+	margin: 0 auto;
+	font-family: 'andadaregular', Georgia, serif;
+	color: #c0c2c4;
+}
+
+.top-bar-section .has-dropdown:hover>a {
+	padding: 0 15px;
+  	line-height: 45px;
+  	background: #dc3e28;
+	margin: 0 auto;
+	font-family: 'andadaregular', Georgia, serif;
+	color: #c0c2c4;
+	
 }
 
 .right {

@@ -15,7 +15,7 @@ Class StandardView extends Disco\classes\View {
 		$this->scriptSrc('/js/jquery-1.9.0.min.js');
 		$this->scriptSrc('/js/jquery.nivo.slider.js');
 		$this->scriptSrc('/js/jquery.color-RGBa-patch.js');
-		$this->scriptSrc('/js/example.js');
+		//$this->scriptSrc('/js/example.js');
 		$this->scriptSrc('/js/foundation.topbar.js');
 		//This is discophp's included JavaScript sources
         $this->scriptSrc('http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js');
